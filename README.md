@@ -1,69 +1,72 @@
-# 中国古典瓷器名生成器
+# Chinese Classical Porcelain Name Generator
 
-中国古典瓷器名生成器是一个简单的脚本，用于随机生成具有中国传统风格的瓷器名。这些名字是通过随机组合不同的历史时期、窑厂、形状和釉色来创建的。
+[Chinese](./README_CN.md)
 
-## 功能
+The Chinese Classical Porcelain Name Generator is a simple script for randomly generating porcelain names with a traditional Chinese style. These names are created by randomly combining different elements from various historical periods, kiln factories, shapes, and glaze colors.
 
-- 随机组合不同的元素（包括时代名称、窑厂、形状、釉色）来生成瓷器名。
-- 允许用户指定生成瓷器名的数量。
-- 返回一个包含生成的瓷器名的列表。
+## Features
 
-## 安装
+- Randomly combines different elements (including era names, kiln factories, shapes, glaze colors) to generate porcelain names.
+- Allows users to specify the number of porcelain names to generate.
+- Returns a list containing the generated porcelain names.
 
-本脚本不需要特定的安装步骤，只需确保您的系统中安装有 Python（版本 3.x）。
+## Installation
 
-## 使用方法
+This script does not require specific installation steps, just make sure Python (version 3.x) is installed on your system.
 
-1. 克隆仓库或下载脚本文件到您的本地机器。
-2. 打开终端（或命令提示符），导航到脚本所在的目录。
-3. 运行脚本：
+## Usage
 
-   ```sh
-   python porcelain_name_generator.py
-   ```
+1. Clone the repository or download the script file to your local machine.
 
-4. 按照提示输入需要生成的瓷器名数量。
+2. Open the terminal (or command prompt), navigate to the directory where the script is located.
 
-   ```sh
-   输入需要生成的数量: 5
-    ```
+3. Run the script:
 
-5. 输出结果将类似于：
+```sh
+python porcelain_name_generator.py
+```
 
-   ```sh
-    宋代龙泉窑青瓷花瓶
-    明代景德镇窑蓝白瓷盘
-    元代汝窑天青釉葵口碗
-    唐代官窑白釉长颈瓶
-    汉代越窑黑釉双耳罐
-    ```
+4. Follow the prompt to enter the number of porcelain names you want to generate.
 
-## 贡献
+```sh
+Enter the number of names to generate: 5
+```
 
-欢迎所有形式的贡献。如果您想提出建议、报告错误或贡献代码，请：
+5. The output will be similar to:
 
-1. Fork 仓库
-2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 将您的更改推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开一个 Pull Request
+```sh
+河清白舍窑青釉橄榄瓶
+永嘉南丰窑孔雀绿花口瓶
+开耀连江窑釉下五彩天球瓶
+开禧容县窑豆青谷仓
+成都长治窑青釉褐绿彩多管瓶
+ ```
 
-请确保在 Pull Request 中详细描述您的更改。
+## Contribution
 
-## 许可
+All forms of contributions are welcome. If you want to suggest a feature, report a bug, or contribute code, please:
 
-该项目根据 MIT 许可证开源。有关更多信息，请查阅附带的 [LICENSE](LICENSE) 文件。
+1. Fork the repository.
+2. Create your feature branch (git checkout -b feature/AmazingFeature).
+3. Commit your changes (git commit -m 'Add some AmazingFeature').
+4. Push your changes to the branch (git push origin feature/AmazingFeature).
+5. Open a Pull Request.
+6. Please ensure to describe your changes in detail in the Pull Request.
 
-## 致谢
+## License
 
-- 感谢所有维护和贡献中国传统文化和艺术的研究者和爱好者。
-- 特别鸣谢提供数据支持和专业知识的历史学者和陶瓷艺术专家。
+This project is open-source under the MIT license. For more information, please refer to the accompanying LICENSE file.
 
-## 数据来源
+## Acknowledgments
 
-本项目的部分数据基于以下公开资料和国家标准：
+Thanks to all researchers and enthusiasts who maintain and contribute to the traditional Chinese culture and arts.
+Special thanks to historical scholars and ceramic art experts who provided data support and professional knowledge.
 
-- **中国历史时期信息**：参考了维基百科上的 [中国年号列表](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8) 条目，该内容遵循 [创作共用 署名-相同方式共享 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 许可证。
-- **国家标准引用**：《瓷器类文物元数据规范》[GB/T XXXXX-XXXX](https://www.lib.pku.edu.cn/portal/sites/default/files/news/cms/resupload/0000001494/21.pdf)，北京大学图书馆。此标准提供了瓷器的分类和编号方法。
+## Data Sources
 
-我们尊重并感谢这些资源的原创者和发布者。在使用上述文档时，我们已尽力遵守相关的使用条款和引用规定。
+Some of the data for this project is based on the following public materials and national standards:
+
+- **Information on Chinese historical periods** : Referenced from the [中国年号列表](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8) on Wikipedia, which follows the  [Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
+- **National Standard Reference**: 《瓷器类文物元数据规范》[GB/T XXXXX-XXXX](https://www.lib.pku.edu.cn/portal/sites/default/files/news/cms/resupload/0000001494/21.pdf), Peking University Library. This standard provides classification and numbering methods for porcelain.
+
+We respect and appreciate the original creators and publishers of these resources. We have made every effort to comply with relevant terms of use and citation guidelines when utilizing the above documents.
